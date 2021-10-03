@@ -1,30 +1,30 @@
 {
-  "title": "Setup Kubernetes Cluster using Kubeadm",
-  "description": "Learn how to setup kubernetes cluster using kubeadm",
-  "difficulty": "Beginner",
-  "time": "60 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
+    "backend": {
+        "imageid": "kubernetes-cluster"
     },
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "environment": {
-    "uilayout": "terminal-terminal"
-  },
-  "backend": {
-    "imageid": "kubernetes-cluster"
-  }
+    "description": "Learn how to setup kubernetes cluster using kubeadm",
+    "details": {
+        "finish": {
+            "text": "finish.md"
+        },
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "text": "step1.md",
+                "title": "Step 1"
+            },
+            {
+                "text": "step2.md",
+                "title": "Step 2"
+            }
+        ]
+    },
+    "difficulty": "Beginner",
+    "environment": {
+        "uilayout": "terminal-terminal"
+    },
+    "time": "15 minutes",
+    "title": "Setup Kubernetes Cluster using Kubeadm"
 }
